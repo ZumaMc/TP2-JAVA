@@ -48,8 +48,28 @@ public class Main {
             System.out.println("La suma de los 3 digitos es " + suma);
         }
             /*-------------------------------------------------EJERCICIO 4-----------------------------------------------*/
-        if (ejercicios == 4){}
-            /*-------------------------------------------------EJERCICIO 5-----------------------------------------------*/
+        if (ejercicios == 4){
+            System.out.println("Ingrese la cantidad a devolver");
+            float dev = sc.nextInt() ;
+            float doscientos = dev/200;
+            float res1= dev- (200*doscientos);
+            float cien= res1/100;
+            float res2= res1-(100*cien);
+            float cinc= res2/50;
+            float res3= res2-(50*cinc);
+            float veinte = res3/20;
+            float res4= res3-(20*veinte);
+            float cinco= res4/5;
+            float res5= res4 -(cinco*5);
+            float dos= res5/2;
+            float res6= res5 -(dos*2);
+            float uno=res6/1;
+            float res7=res6-(uno*1);
+            double cent=res7/0.05;
+            double res8= res7-(cent*0.05);
+            System.out.println("necesitas " +doscientos+ " billetes de doscientos,"+ "necesitas"+ cien + "billete de cien,"+ "necesitas " +cinc +" billete de cincuenta," + " necesitas" + veinte + " billetes de veinte,"+" necesitas"+ cinc+ " billetes de cinco,"+ "necesitas"+ dos+ " billetes de 2" + " necesitas "+ uno + " billetes de uno,"+ "y tambien necesitas " + cent + " monedas de 5 centavos");
+        }
+            /*-------------------------------------------------EJERCICIO 5-----1------------------------------------------*/
         if (ejercicios == 5) {
             System.out.print("Ingrese un numero");
             int numero = sc.nextInt();
